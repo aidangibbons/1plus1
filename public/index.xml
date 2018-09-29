@@ -51,14 +51,12 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>Test page</title>
-      <link>/test_page/</link>
+      <title>footballer_map</title>
+      <link>/footballer_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/test_page/</guid>
-      <description>This is some text
-R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
+      <guid>/footballer_map/</guid>
+      <description>Hopefully a map will go here eventually woo</description>
     </item>
     
   </channel>
