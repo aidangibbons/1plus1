@@ -9,12 +9,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+
+  [[menu.main]]
     name = "About"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "about"
     url = "/about/"
-[[menu.main]]
+    
+  [[menu.main]]
     name = "Footballer Map"
-    url = "/Footballer_Map/"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "footballer_map"
+    url = "/about/"
+  
 
 [params]
     description = "A website built through Hugo and blogdown."
